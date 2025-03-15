@@ -1,6 +1,7 @@
 #include "skeletyl.dtsi"
 
 &kscan0 {
+    wakeup-source;
     diode-direction = "row2col";
     row-gpios
         = <&pro_micro 3 (GPIO_ACTIVE_LOW)> // row0

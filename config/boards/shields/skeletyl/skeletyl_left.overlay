@@ -1,6 +1,7 @@
 #include "skeletyl.dtsi"
 
 &kscan0 {
+    wakeup-source;
     row-gpios
         = <&pro_micro 15 (GPIO_ACTIVE_LOW)> // row0
         , <&pro_micro 18 (GPIO_ACTIVE_LOW)> // row1
