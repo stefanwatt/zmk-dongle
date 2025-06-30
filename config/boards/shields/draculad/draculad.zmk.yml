@@ -1,0 +1,13 @@
+file_format: "1"
+id: draculad
+name: The draculad 
+type: shield
+url: https://github.com/stefanwatt/zmk-dongle
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - draculad_left
+  - draculad_right
+  - draculad_dongle

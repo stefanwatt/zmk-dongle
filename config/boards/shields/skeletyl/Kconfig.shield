@@ -1,11 +1,11 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_SKELETYL_LEFT
-	def_bool $(shields_list_contains,skeletyl_left)
+config SHIELD_DRACULAD_LEFT
+	def_bool $(shields_list_contains,draculad_left)
 
-config SHIELD_SKELETYL_RIGHT
-	def_bool $(shields_list_contains,skeletyl_right)
+config SHIELD_DRACULAD_RIGHT
+	def_bool $(shields_list_contains,draculad_right)
 
-config SHIELD_SKELETYL_DONGLE
-	def_bool $(shields_list_contains,skeletyl_dongle)
+config SHIELD_DRACULAD_DONGLE
+	def_bool $(shields_list_contains,draculad_dongle)
