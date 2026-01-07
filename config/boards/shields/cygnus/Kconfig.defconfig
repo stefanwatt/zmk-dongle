@@ -1,25 +1,19 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_CYGNUS_DONGLE
+if SHIELD_CYGNUS_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "cygnus"
-	
+    default "Cygnus"
+
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
-	
-config ZMK_USB
-	default y
+    default y
 
 endif
 
-if SHIELD_CYGNUS_LEFT || SHIELD_CYGNUS_RIGHT 
+if SHIELD_CYGNUS_LEFT || SHIELD_CYGNUS_RIGHT
 
 config ZMK_SPLIT
-	default y
+    default y
 
-config ZMK_BLE
-	default y
-	
 endif

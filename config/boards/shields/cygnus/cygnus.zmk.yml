@@ -1,6 +1,6 @@
 file_format: "1"
 id: cygnus
-name: The cygnus 
+name: Cygnus 
 type: shield
 url: https://github.com/stefanwatt/zmk-dongle
 requires: [pro_micro]
