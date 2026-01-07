@@ -1,0 +1,18 @@
+#include "cygnus.dtsi"
+
+&kscan0 {
+    wakeup-source;
+    row-gpios
+        = <&pro_micro 15 (GPIO_ACTIVE_LOW)> // row0
+        , <&pro_micro 18 (GPIO_ACTIVE_LOW)> // row1
+        , <&pro_micro 19 (GPIO_ACTIVE_LOW)> // row2
+        , <&pro_micro 14 (GPIO_ACTIVE_LOW)> // row3
+        ; 
+    col-gpios
+        = <&pro_micro 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // col0
+        , <&pro_micro 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // col1
+        , <&pro_micro 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // col2
+        , <&pro_micro 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // col3
+        , <&pro_micro 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // col4
+        ;
+};
