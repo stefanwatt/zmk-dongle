@@ -1,7 +1,12 @@
-#include "cygnus.dtsi"
+#include "skeletyl.dtsi"
+
+&default_transform { // The matrix transform for this board is 5
+    col-offset = <5>;
+};
 
 &kscan0 {
     wakeup-source;
+    diode-direction = "row2col";
     row-gpios
         = <&pro_micro 18 (GPIO_ACTIVE_LOW)> // row0
         , <&pro_micro 19 (GPIO_ACTIVE_LOW)> // row1
