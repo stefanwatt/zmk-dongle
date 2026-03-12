@@ -7,5 +7,10 @@ manifest:
       remote: zmkfirmware
       revision: 19582174f3a446a07d40f479020b4ebb1aad8ddb
       import: app/west.yml
+    - name: zephyr
+      remote: zmkfirmware
+      revision: ec36516990d40355238db3049bc1709191f99b4e
+      clone-depth: 1
+    
   self:
     path: config
