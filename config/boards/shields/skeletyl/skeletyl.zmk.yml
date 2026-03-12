@@ -4,7 +4,6 @@ name: The skeletyl
 type: shield
 url: https://github.com/stefanwatt/zmk-dongle
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
 siblings:
