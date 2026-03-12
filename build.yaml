@@ -1,14 +1,14 @@
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: skeletyl_dongle
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: skeletyl_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: skeletyl_right
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: cygnus_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: cygnus_right
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset 
