@@ -79,7 +79,7 @@
         GAME {
            bindings = <
             &kp N1      &kp N2   &kp N3   &kp LCTRL &kp B                              &none       &kp AT      &kp HASH    &kp TILDE   &none    
-            &kp Q       &kp W    &kp E    &kp R     &ESC                               &tog GAME   &kp PLUS    &kp MINUS   &kp STAR    &kp PRCNT  
+            &kp Q       &kp W    &kp E    &kp R     &kp                                &tog GAME   &kp PLUS    &kp MINUS   &kp STAR    &kp PRCNT  
             &kp TAB     &kp S    &kp D    &kp F     &kp V                              &bt BT_NXT       &kp L       &kp COMMA   &kp DOT     &kp FSLH
                                     &kp LALT        &kp SPACE     &kp LCTRL                            &none       &none       &none
             >;
