@@ -76,14 +76,6 @@
             >;
         };
 
-        GAME {
-           bindings = <
-            &kp N1      &kp N2   &kp N3   &kp LCTRL &kp B                              &none       &kp AT      &kp HASH    &kp TILDE   &none    
-            &kp Q       &kp W    &kp E    &kp R     &kp                                &tog GAME   &kp PLUS    &kp MINUS   &kp STAR    &kp PRCNT  
-            &kp TAB     &kp S    &kp D    &kp F     &kp V                              &bt BT_NXT       &kp L       &kp COMMA   &kp DOT     &kp FSLH
-                                    &kp LALT        &kp SPACE     &kp LCTRL                            &none       &none       &none
-            >;
-        };
         FKEYS {
            bindings = <
             &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                             &kp F6      &kp F7      &kp F8      &kp F9      &kp F10   
@@ -99,6 +91,15 @@
             &kp F13     &kp F16     &none       &none       &none                              &none       &none       &none       &kp F14     &none     
             &none       &none       &none       &none       &none                              &none       &none       &none       &none       &none   
                                     &none       &none       &none                              &none       &none       &none
+            >;
+        };
+
+        GAME {
+           bindings = <
+            &kp N1      &kp N2   &kp N3   &kp LCTRL &kp B                              &none       &kp AT      &kp HASH    &kp TILDE   &none    
+            &kp Q       &kp W    &kp E    &kp R     &kp ESC                            &tog GAME   &kp PLUS    &kp MINUS   &kp STAR    &kp PRCNT  
+            &kp TAB     &kp S    &kp D    &kp F     &kp V                              &bt BT_NXT       &kp L       &kp COMMA   &kp DOT     &kp FSLH
+                                    &kp LALT        &kp SPACE     &kp LCTRL                            &none       &none       &none
             >;
         };
     };
